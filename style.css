@@ -23,7 +23,10 @@
 :root {
     --padding_left: 40px;
     --padding_right: 40px;
-    --primary: rgb(165, 0, 203);
+    --primary: #a700cc;
+
+
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .container {
@@ -147,11 +150,153 @@
 
 /* services section start here  */
 
+.section5 {
+    margin-bottom: 50px;
+}
+
+.section5 #heading {
+    color: var(--primary);
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: grey;
+}
+
 .services {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 1.25em;
+    gap: 50px;
     grid-template-rows: auto auto;
+    margin: 0 80px;
+    margin-top: 50px;
 }
 
+.tiles {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tiles img {
+    height: 50px;
+    width: 50px;
+    color: var(--primary);
+}
+
+.tiles h1 {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.tiles p {
+    color: grey;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.tiles_content {
+    width: 100%;
+}
+
+
 /* services section ends here  */
+
+/* peacock image section start here  */
+.section6 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-bottom: 50px;
+}
+
+.section6 img {
+    width: 100%;
+    height: 100vh;
+}
+
+.section6_content {
+    padding-left: 10%;
+    border: 2px solid skyblue;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.section6_content .about_us_heading {
+    margin-top: 80px;
+    color: var(--primary);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.section6_content .future {
+    color: grey;
+    text-align: justify;
+    font-size: 1.3rem;
+    width: 80%;
+
+}
+
+.services2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    margin-top: 50px;
+    width: 80%;
+    /* border: 2px solid blue; */
+}
+
+
+.tiles2 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    /* border: 2px solid red; */
+    margin-top: 0;
+    width: 100%;
+
+}
+
+.tiles2 img {
+    height: 30px;
+    width: 30px;
+    color: var(--primary);
+}
+
+.tiles2 {
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}
+
+.tiles2 p {
+    color: grey;
+    font-size: 1.1rem;
+    /* text-align: justify; */
+}
+
+
+.tiles_content2 {
+    width: 100%;
+}
+
+.tiles_content2 h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.tiles_content2 .frame {
+    text-align: justify;
+    width: 88%;
+}
+
+
+
+
+
+/* peacock image section ends here  */
