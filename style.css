@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* general css class */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none
+}
+
+:root {
+    --padding_left: 40px;
+    --padding_right: 40px;
+    --primary: rgb(165, 0, 203);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+/* css for header section starts here  */
+.header {
+    background-color: aquamarine;
+}
+
+.logo h1 {
+    padding-left: var(--padding_left);
+    color: var(--primary);
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+/* css for header section ends here  */
+
+/* navbar links css starts here  */
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* navbar links css ends here  */
+
+/* hexagon section start here  */
+
+.hexagon {
+
+    background-color: green;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10em;
+    padding-bottom: 10em;
+
+}
+
+.hexagon p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* hexagon section ends here  */
+
+
+
+/* section 3 starts here  */
+
+.section3 {
+    flex-direction: column;
+    padding-top: 2em;
+}
+
+.heading .feature {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.heading .diffrent {
+    margin-bottom: 50px;
+}
+
+.para {
+    width: 50%;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    border: 2px solid red;
+    margin: 0 100px;
+    margin-bottom: 100px;
+}
+
+.cards img {
+
+    width: 100%;
+    height: 200px;
+}
+
+.card_child {
+    border: 2px solid green;
+
+    /* width: 80%; */
+}
+
+.card_child h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card_child p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* section 3 ends here  */
+
+/* section 4 starts here  */
+
+.section4 {
+    background-color: khaki;
+    padding-left: 50%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* section 4 ends here  */
+
+/* services section start here  */
+
+.services {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.25em;
+    grid-template-rows: auto auto;
+}
+
+/* services section ends here  */
