@@ -105,6 +105,11 @@
     padding-top: 10em;
     padding-bottom: 10em;
     background-color: #eee;
+    background-image: url(images/hex.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
 
 }
 
