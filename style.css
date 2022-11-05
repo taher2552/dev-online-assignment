@@ -105,7 +105,7 @@
     padding-top: 10em;
     padding-bottom: 10em;
     background-color: #eee;
-    background-image: url(images/hex.png);
+    background-image: url(images/hex3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -242,6 +242,10 @@
     padding-bottom: 100px;
     font-family: var(--font);
     font-size: 2rem;
+    background-image: url(images/yellow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 
