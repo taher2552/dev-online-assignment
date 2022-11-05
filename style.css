@@ -595,14 +595,13 @@ footer p {
 
     }
 
-    .section6,
     .section6_content {
-        height: 47em;
+        background-color: white;
+        ;
     }
 
-    footer {
-        margin-top: 530px;
-    }
+
+
 
 }
 
@@ -642,18 +641,12 @@ footer p {
 
     .services2 {
 
-        row-gap: 100px;
-        margin-top: 150px;
+        row-gap: 50px;
+        /* margin-top: 150px; */
     }
 
-    .section6,
-    .section6_content {
-        height: 70em;
-    }
 
-    footer {
-        margin-top: 400px;
-    }
+
 
     .input {
         display: flex;
@@ -669,18 +662,13 @@ footer p {
 }
 
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 310px) {
     footer {
-
-        margin-top: 900px;
+        margin-top: 800px;
     }
-
-    .section6,
-    .section6_content {
-        height: 47em;
-    }
-
-
 }
+
+
+
 
 /* media query section ends here  */
