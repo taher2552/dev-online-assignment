@@ -128,6 +128,7 @@
 .button .service_btn {
     background-color: var(--yellow);
     border: 2px solid transparent;
+    font-size: 1.5rem;
 }
 
 .button .service_btn:hover {
@@ -139,6 +140,7 @@
 
 .button .learn_btn {
     border: 2px solid transparent;
+    font-size: 1.5rem;
 }
 
 .button .learn_btn:hover {
@@ -512,13 +514,62 @@ footer p {
 
     .hexagon p {
         text-align: center;
+        padding: 0 5px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+
+    .cards {
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+        justify-content: center;
+        /* border: 2px solid blue; */
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .cards {
+        grid-template-columns: auto;
+    }
+
+    .heading .feature,
+    .heading .diffrent {
+        font-size: 2rem;
+        /* color: #a700cc; */
     }
 }
+
+
+
 
 @media only screen and (max-width: 480px) {
     .hexagon h1 {
         font-size: 3rem;
     }
+
+
+
+
+    .button {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .learn_btn {
+        margin-bottom: 20px;
+    }
+
+    .heading .feature,
+    .heading .diffrent {
+        font-size: 1.5rem;
+        text-align: center;
+        /* color: #a700cc; */
+    }
+
 }
+
+
+
 
 /* media query section ends here  */
